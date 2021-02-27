@@ -27,7 +27,7 @@ public class PropertiesManager {
         properties.setProperty("author", "Predicate<? super T>#0001");
         properties.setProperty("version", "1.0.0");
         properties.setProperty("encoding", "UTF_8");
-        properties.setProperty("token", "ODEyMTIxMjQ5NjE0MDA0Mjc0.YC8I2g.VuVXVztfwStfflEtIyx4URBBdyQ");
+        properties.setProperty("token", "REPLACEME");
         return this;
     }
 
