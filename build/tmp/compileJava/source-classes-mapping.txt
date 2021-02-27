@@ -1,0 +1,8 @@
+io/github/paldiu/obsidian/props/PropertiesManager.java
+ io.github.paldiu.obsidian.props.PropertiesManager
+io/github/paldiu/obsidian/utils/Registry.java
+ io.github.paldiu.obsidian.utils.Registry
+io/github/paldiu/obsidian/Obsidian.java
+ io.github.paldiu.obsidian.Obsidian
+io/github/paldiu/obsidian/utils/Constants.java
+ io.github.paldiu.obsidian.utils.Constants
