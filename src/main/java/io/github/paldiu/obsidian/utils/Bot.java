@@ -2,7 +2,6 @@ package io.github.paldiu.obsidian.utils;
 
 import discord4j.common.util.Snowflake;
 import discord4j.core.DiscordClient;
-import discord4j.core.DiscordClientBuilder;
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.event.domain.lifecycle.ReadyEvent;
 import discord4j.core.object.entity.User;
@@ -11,12 +10,12 @@ import discord4j.discordjson.json.UserData;
 import discord4j.rest.response.ResponseFunction;
 import io.github.paldiu.obsidian.props.PropertiesManager;
 
-public final class Registry {
+public final class Bot {
     private final GatewayDiscordClient gateway;
     private final DiscordClient client;
     private final String token;
 
-    public Registry() {
+    public Bot() {
         PropertiesManager.getInstance().load();
         token = PropertiesManager.getInstance().getToken();
         client = DiscordClient.builder(token)

@@ -10,12 +10,4 @@ public class Commands {
 
         };
     }
-
-    private Command coloredRank(User user, Message message) {
-        return () -> {
-            message.getGuild().
-        };
-    }
-
-
 }

@@ -1,11 +1,16 @@
 package io.github.paldiu.obsidian;
 
-import io.github.paldiu.obsidian.utils.Constants;
+import io.github.paldiu.obsidian.utils.Bot;
 
 public final class Obsidian {
-    // This class only initializes the bot.
-    // Using utility classes to manage instances.
+    private static Bot bot;
+
     public static void main(String[] args) {
-        Constants.getRegistry().verify();
+        bot = new Bot();
+        getBot().verify();
+    }
+
+    public static Bot getBot() {
+        return bot;
     }
 }

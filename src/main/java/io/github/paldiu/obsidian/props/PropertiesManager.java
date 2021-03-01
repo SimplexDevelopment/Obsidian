@@ -27,7 +27,7 @@ public class PropertiesManager {
         properties.setProperty("author", "Predicate<? super T>#0001");
         properties.setProperty("version", "1.0.0");
         properties.setProperty("encoding", "UTF_8");
-        properties.setProperty("token", "REPLACEME");
+        properties.setProperty("token", "BOT_TOKEN");
         return this;
     }
 
@@ -47,7 +47,7 @@ public class PropertiesManager {
         try (OutputStream stream = new FileOutputStream(child)) {
             properties.store(stream, null);
         } catch (IOException e) {
-            Constants.getLogger().error(e.getMessage());
+            Constants.getLogger().severe(e.getMessage());
         }
     }
 
